@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'poppins',sans-serif;
+
+}
+
+html{
+    font-size: 62.5%;
+    /* overflow: hidden; */
+}
+.nav{
+    height: 63px;
+    /* background-color: rgb(170, 237, 237); */
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+    color: black;
+    display: flex;
+    /* flex-direction: cent; */
+    justify-content: space-evenly;
+}
+/* .navbar-logo{
+background-image: url(flip-logo.jpeg);
+height: 50px;
+width: 100px; */
+/* } */
+
+.imglogo{
+    height: 55px;
+    width: 200px;
+    margin: 3px;
+}
+
+.search-input{
+    height:35px;
+    border-radius: 5px;
+    width: 500px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.border:hover{
+    border: 2px solid white;
+}
+.login{
+    display: flex;
+    border: 2px solid black;
+    height: 35px;
+    border-radius: 10%;
+    align-items: center;
+    margin: 10px;
+}
+.cart{
+    display: flex;
+    height: 35px;
+    align-items: center;
+    margin: 10px;
+    border-radius: 10%;
+    border: 2px solid black;
+}
+
+.seller{
+    height: 35px;
+    border-radius: 10%;
+    border: 2px solid black;
+    align-items: center;
+    display: flex;
+    margin: 10px;
+}
+.all{
+    height: 35px;
+    border-radius: 10%;
+    border: 2px dotted black;
+    align-items: center;
+    display: flex;
+    margin: 10px;
+    /* border-width: 10px; */
+    width:50px;
+    justify-content: center;
+
+}
+
+.hero{
+    height: 200px;
+    /* background-color: rgb(227, 208, 244); */
+    color: rgb(255, 255, 255);
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+.box1{
+    /* border: 1px solid black; */
+    height: 140px;
+    width: 140px;
+    /* max-width: 2px; */
+    background-color: white;
+    margin: 2px;
+}
+
+.box1{
+    height: 180px;
+    width: 160px;
+    align-items: center;
+    justify-content: center;
+}
+.grocery{
+    height: 140px;
+    width: 140px;
+    /* background-image: url(grocery.webp); */
+
+}
+
+/* .box2{
+    background-image: url(grocery.webp);
+    height: 100px;
+    height: 100px;
+} */
+
+.img1{
+    align-items: center;
+    justify-content: center;
+}
+a{
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+#toysss{
+    padding: 40px;
+}
+
+.hov:hover{
+    color: rgb(232, 17, 142);
+}
+img{
+    border-radius: 3%;
+    ascent-override: 1px;
+}
+
+.advertisement{
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+img:hover{
+    transform: scale(1.05);
+}
+
+
+.box9{
+    height: 230px;
+    width: 190px;
+    /* border: 2px solid black; */
+}
+
+/* .elec{
+    display: flex;
+    /* border-radius: 2px solid black; */
+    /* justify-content: space-evenly; */
+
+  .elec{
+    /* background:rgb(250, 236, 210); */
+    padding-bottom: 10px;
+    margin-top: 10px;
+    background-image: radial-gradient( circle 311px at 8.6% 27.9%,  rgba(62,147,252,0.57) 12.9%, rgba(239,183,192,0.44) 91.2% );
+  }
+
+
+ .boxes{
+    display: flex;
+    justify-content: space-evenly;
+    background: white;
+ }  
+ 
+ .nameele{
+    margin-bottom: 20px;
+    margin-left: 25px;
+ }
+
+ .electronicsinstrument{
+    color: chocolate;
+    /* padding-left: 10px; */
+    margin-left: 50px;
+    font-size: 1.3rem;
+    
+ }
+
+  electronicsinstrument:hover{
+    color: #80D0C7;
+ }
+
+ .electronicsinstrument:hover{
+    color: blue;
+ }
+ .student{
+    height: 200px;
+    width: 200px;
+    /* border: 2px  dotted black; */
+    padding-top: 50px;
+    padding-left: 50px;
+ }
+
+ ul{
+    display: flex;
+ }
+.free{
+    /* margin-left: 20px; */
+    /* margin-bottom: 20px; */
+    display: flex;
+}
+/* .free2{ */
+    /* display: flex; */
+/* } */
+
+.stu-material{
+    font-size: 1.3rem;
+    margin-left: 30px;
+}
+
+.stu-material:hover{
+    color: rgb(39, 231, 167);
+}
+.adv{
+    margin-top: 50px;
+    margin-left: 40px;
+    /* transform: scale(1.2); */
+
+}
+
+.footerli{
+    /* flex-direction: row; */
+    display: grid;
+}
+.footer{
+    display: grid;
+    gap: 0.5px;
+    align-content: normal;
+    grid-template-columns: repeat(4,1.3rem);
+
+    
+}
+.footer-content{
+    display: flex;
+}
